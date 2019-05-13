@@ -11,8 +11,16 @@ import Scrolling from './componentes/Scroll'
 import Evento from './componentes/Evento'
 import Avo from './componentes/ComunicacaoDireta'
 import TextoSincronizado from './componentes/ComunicacaoReversa'
+import ListaFlex from './componentes/ListaFlex'
+import Flex from './componentes/Flex'
 
 export default createDrawerNavigator({
+    Flex: {
+        screen: Flex
+    },
+    ListaFlex: {
+        screen: ListaFlex
+    },
     TextoSincronizado: {
         screen: TextoSincronizado
     },
