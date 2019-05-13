@@ -10,8 +10,12 @@ import ValidarProps from './componentes/ValidarProps'
 import Scrolling from './componentes/Scroll'
 import Evento from './componentes/Evento'
 import Avo from './componentes/ComunicacaoDireta'
+import TextoSincronizado from './componentes/ComunicacaoReversa'
 
 export default createDrawerNavigator({
+    TextoSincronizado: {
+        screen: TextoSincronizado
+    },
     Avo: {
         screen: () => <Avo nome='João' sobrenome='Silva'/>
     },
