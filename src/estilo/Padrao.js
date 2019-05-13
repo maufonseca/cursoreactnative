@@ -16,5 +16,14 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    input: {
+        height: 70,
+        fontSize: 40,
+        borderColor: 'gray',
+        borderWidth: 1
+    },
+    fonte40: {
+        fontSize: 40
     }
 })

@@ -8,8 +8,12 @@ import Plataforma from './componentes/Plataforma'
 import Contador from './componentes/Contador'
 import ValidarProps from './componentes/ValidarProps'
 import Scrolling from './componentes/Scroll'
+import Evento from './componentes/Evento'
 
 export default createDrawerNavigator({
+    Evento: {
+        screen: Evento
+    },
     MegaSena: {
         screen: () => <MegaSena numeros={7}/>,
         navigationOptions: { title: 'Mega Sena' }
